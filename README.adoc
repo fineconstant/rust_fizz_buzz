@@ -1,0 +1,48 @@
+```
+FizzBuzz compare methods/FizzBuzz::for_number/1
+                        time:   [164.78 ns 166.44 ns 167.71 ns]
+                        thrpt:  [23.851 Melem/s 24.033 Melem/s 24.276 Melem/s]
+Found 10 outliers among 100 measurements (10.00%)
+  10 (10.00%) low mild
+FizzBuzz compare methods/FizzBuzz::for_number/3
+                        time:   [48.352 ns 48.472 ns 48.626 ns]
+                        thrpt:  [82.261 Melem/s 82.522 Melem/s 82.727 Melem/s]
+Found 15 outliers among 100 measurements (15.00%)
+  4 (4.00%) high mild
+  11 (11.00%) high severe
+FizzBuzz compare methods/FizzBuzz::for_number/5
+                        time:   [49.453 ns 49.512 ns 49.581 ns]
+                        thrpt:  [80.677 Melem/s 80.788 Melem/s 80.885 Melem/s]
+Found 19 outliers among 100 measurements (19.00%)
+  7 (7.00%) high mild
+  12 (12.00%) high severe
+FizzBuzz compare methods/FizzBuzz::for_number/15
+                        time:   [110.07 ns 110.26 ns 110.52 ns]
+                        thrpt:  [36.192 Melem/s 36.277 Melem/s 36.340 Melem/s]
+Found 12 outliers among 100 measurements (12.00%)
+  2 (2.00%) high mild
+  10 (10.00%) high severe
+
+FizzBuzz::for_number(1) time:   [114.69 ns 115.25 ns 115.96 ns]
+Found 5 outliers among 100 measurements (5.00%)
+  5 (5.00%) high severe
+
+FizzBuzz::for_number(3) time:   [49.325 ns 49.389 ns 49.462 ns]
+Found 8 outliers among 100 measurements (8.00%)
+  6 (6.00%) high mild
+  2 (2.00%) high severe
+
+FizzBuzz::for_number(5) time:   [50.444 ns 50.544 ns 50.663 ns]
+Found 16 outliers among 100 measurements (16.00%)
+  6 (6.00%) high mild
+  10 (10.00%) high severe
+
+FizzBuzz::for_number(15)
+                        time:   [108.25 ns 108.77 ns 109.75 ns]
+Found 18 outliers among 100 measurements (18.00%)
+  8 (8.00%) high mild
+  10 (10.00%) high severe
+
+FizzBuzz::for_number - complex
+                        time:   [342.34 ns 344.00 ns 345.71 ns]
+```
