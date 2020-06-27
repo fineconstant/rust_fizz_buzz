@@ -1,3 +1,5 @@
+use std::net::UdpSocket;
+
 mod math;
 
 pub struct FizzBuzz {}
@@ -5,13 +7,14 @@ pub struct FizzBuzz {}
 impl FizzBuzz {
     pub fn for_number(x: i32) -> String {
         use math::Divisor;
+        use math::is_divisible;
 
         let mut result = String::new();
 
         if Divisor::is_divisible(x, 3) {
             result.push_str("Fizz");
         }
-        if Divisor::is_divisible(x, 5) {
+        if is_divisible(x, 5) {
             result.push_str("Buzz");
         }
         if result.is_empty() {
